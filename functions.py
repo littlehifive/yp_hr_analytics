@@ -46,6 +46,21 @@ def format_omang(omang):
         return np.nan
     else:
         return omang
+    
+    
+# Function that extract 9-digit Omang IDs from the entry data and convert them to a list    
+def list_omang(df, omang):
+    df_omang = df[omang].astype(str).apply(format_omang)
+    df_omang = df_omang[df_omang.astype(str).str.match('^\d{9}$')].tolist()
+    return df_omang
+
+# Function that gets the facilitator and omang id from entry surveys
+def get_entry_id(df, omang, fac_id):
+    df['dem_omang'] = df[omang].astype(str).apply(format_omang)
+    df['facilitator_id_b'] = df[fac_id]
+    df = df[['facilitator_id_b', 'dem_omang']]
+    return df
+    
 
 # 5-point recode dictionary
 likert_5_dict = {
@@ -70,4 +85,18 @@ gender_dict = {
     'Him': 'Male',
     'They': 'Other',
     'Prefer not to say': 'Other'
+} 
+
+# prac_scenario_noshow recode dictionary
+prac_scenario_noshow_dict = {
+    'Gather fellow facilitators and start planning together': 'Planning together with fellow facilitators',
+    'Gather fellow facilitators and make a plan for the day': 'Planning together with fellow facilitators',
+    'Gather fellow facilitators and make a plan together': 'Planning together with fellow facilitators',
+
+    'Find a quiet place to start planning individually': 'Plan individually',
+    'Head to my classroom and start planning my lesson': 'Plan individually',
+    'Read the calling guidlines and start planning my lesson': 'Plan individually',
+    
+    'Wait for your supervisor to return': 'Wait for supervisor or further instruction',
+    'Stay home and await further instruction': 'Wait for supervisor or further instruction'
 } 
