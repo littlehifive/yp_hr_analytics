@@ -28,6 +28,7 @@ choices = {f"choices_{col}": dat[col].unique().tolist() for col in dat.columns}
 
 # import the best fit xgboost model
 xgb_fit = joblib.load(path_application + 'xgb_fit.pkl')
+xgb_fit_hired = joblib.load(path_application + 'hired_xgb_fit.pkl')
 
 # Part 1: ui ----
 app_ui = ui.page_fluid(
@@ -95,22 +96,42 @@ def server(input, output, session):
         
         df = pd.DataFrame([variables])
         
+        # ---- Predicting hiring ---- 
+        
         # Retrieve the best estimator from the RandomizedSearchCV
-        best_model = xgb_fit.best_estimator_
+        best_model_hiring = xgb_fit.best_estimator_
 
         # Extract the preprocessor from the best estimator
-        preprocessor = best_model.named_steps['preprocess']
+        preprocessor_hiring = best_model_hiring.named_steps['preprocess']
         
         # Preprocess the single row using the fitted preprocessor
-        preprocessed_row = preprocessor.transform(df)
+        preprocessed_row_hiring = preprocessor_hiring.transform(df)
         
         # Get the predicted probabilities for the preprocessed row
-        predicted_probabilities = best_model.named_steps['model'].predict_proba(preprocessed_row)
+        predicted_probabilities_hiring = best_model_hiring.named_steps['model'].predict_proba(preprocessed_row_hiring)
         
         # Extract the probability for class 1 (hired)
-        probability_hired = predicted_probabilities[0][1]  # The second value in the array
+        probability_hired = predicted_probabilities_hiring[0][1]  # The second value in the array
         
-        return f"Predicted likelihood of being hired: {probability_hired * 100:.2f}%"
+        # ---- Predicting levels gain ---- 
+        
+        # Retrieve the best estimator from the RandomizedSearchCV
+        best_model_perform = xgb_fit_hired.best_estimator_
+        
+        # Extract the preprocessor from the best estimator
+        preprocessor_perform = best_model_perform.named_steps['preprocess']
+        
+        # Preprocess the single row using the fitted preprocessor
+        preprocessed_row_perform = preprocessor_perform.transform(df)
+        
+        # Get the predicted probabilities for the preprocessed row
+        predicted_value_perform = best_model_perform.named_steps['model'].predict(preprocessed_row_perform)
+        
+        # Predict the hiring probabilities for this new potential hire
+        return ("For the new facilitator(s), "
+                f"the predicted likelihood of being hired is {probability_hired * 100:.2f}%, "
+                f"and the predicted average levels gain among students is {predicted_value_perform[0]:.2f}.")
+
 
 # Combine into a shiny app.
 # Note that the variable must be "app".
