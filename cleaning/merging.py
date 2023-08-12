@@ -1,16 +1,18 @@
+import os
+import glob
 import pandas as pd
 import numpy as np
-from skimpy import clean_columns
-import functions
+# from skimpy import clean_columns
+from cleaning import functions
 
 # global file path
 path_application = '/Users/michaelfive/Dropbox/R&I/18_Facilitator_Database/02_Data_Analysis/100_HR-Analytics/01_connected_data/application_data/'
 
 # --------- 1. Merge application data ---------
 
-dat_app_2020 = pd.read_csv(path_application + 'cleaned/application_2020_T1.csv', dtype={'contact_phone_2': str})
-dat_app_2022 = pd.read_csv(path_application + 'cleaned/application_2022_T2.csv', dtype={'contact_phone_2': str})
-dat_app_2023 = pd.read_csv(path_application + 'cleaned/application_2023_T2.csv', dtype={'contact_phone_2': str})
+dat_app_2020 = pd.read_csv(path_application + 'cleaned/application_2020_T1.csv', dtype={'contact_phone_2': str,'dem_omang': str})
+dat_app_2022 = pd.read_csv(path_application + 'cleaned/application_2022_T2.csv', dtype={'contact_phone_2': str,'dem_omang': str})
+dat_app_2023 = pd.read_csv(path_application + 'cleaned/application_2023_T2.csv', dtype={'contact_phone_2': str,'dem_omang': str})
 
 
 # Add the 'app_data_source' column to each dataframe
@@ -85,15 +87,27 @@ dat_app_all['yi_hired'] = np.where(dat_app_all['dem_omang'].isin(all_omang_ids),
 dat_app_all.to_csv(path_application + 'cleaned/application_all.csv')
 
 dat_entry_id = pd.read_csv(path_application + 'cleaned/entry_ids.csv',
-                           dtype = {'facilitator_id_b': str,
+                           dtype = {'facilitator_id_i': str,
                                     'dem_omang': str})
 
-dat_entry_id['facilitator_id_b'] = dat_entry_id['facilitator_id_b'].str.split('.').str[0]
+dat_entry_id['facilitator_id_i'] = dat_entry_id['facilitator_id_i'].str.split('.').str[0]
 
-dat_app_all =  dat_app_all.merge(dat_entry_id, on = 'dem_omang', how = 'left')
+dat_app_all = dat_app_all.merge(dat_entry_id, on = 'dem_omang', how = 'left')
+
+dat_app_s = dat_app_all[dat_app_all['facilitator_id_i'].notna()]
 
 # --------- 4. Merge with connected data ---------
 dat_stu = pd.read_stata("/Users/michaelfive/Dropbox/R&I/18_Facilitator_Database/02_Data_Analysis/100_HR-Analytics/01_connected_data/0_pooled_56789.dta")
 
-# pending...
-dat_stu_s = dat_stu.groupby('facilitator_id_b')['stud_age_b'].mean()
+# calculate average level gain by facilitators who implemented the program
+dat_stu_s = dat_stu.groupby('facilitator_id_i')['level_gains'].mean()
+
+dat_app_s = dat_app_s.merge(dat_stu_s, on = 'facilitator_id_i', how = 'left')
+
+dat_app_s = dat_app_s.drop(columns = ["yi_hired"])
+
+# dat_app_s['level_gains'].value_counts().sum()
+
+# export the dataset for predicting level gained
+dat_app_s.to_csv(path_application + 'cleaned/application_hired.csv')
+

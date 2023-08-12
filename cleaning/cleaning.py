@@ -10,7 +10,7 @@ import os
 import glob
 import pandas as pd
 import numpy as np
-import functions
+from cleaning import functions
 
 # global file path
 path_application = '/Users/michaelfive/Dropbox/R&I/18_Facilitator_Database/02_Data_Analysis/100_HR-Analytics/01_connected_data/application_data/'
@@ -115,6 +115,8 @@ dat_app_2022['prac_scenario_noshow'] = dat_app_2022['prac_scenario_noshow'].repl
 
 # add leading 0s to Omang IDs shorter than 9 digits
 dat_app_2022['dem_omang'] = dat_app_2022['dem_omang'].astype(str).apply(functions.format_omang)
+dat_app_2022.loc[dat_app_2022['dem_omang'] == '334220210210', 'dem_omang'] = '334220210'
+dat_app_2022.loc[dat_app_2022['dem_omang'] == '463722611', 'dem_omang'] = '463723611'
 
 # convert numeric columns to numeric
 columns_to_convert = ['score_total', 'score_total_percentile', 'dem_age']  # Replace these with your column names
@@ -175,7 +177,6 @@ dat_app_2023.to_csv(path_application + 'cleaned/application_2023_T2.csv')
 # --------- 4. Getting entry survey facilitator id and omang id ---------
 df = pd.read_stata(path_entry + '02_entry_survey_clean_vConnectEd.dta')
 functions.get_entry_id(df = df, omang = 'fac_omang', fac_id = 'fac_id')
-
 
 # Directory where your .dta files are located
 path_entry = '/Users/michaelfive/Dropbox/R&I/18_Facilitator_Database/02_Data_Analysis/100_HR-Analytics/01_connected_data/entry_data/'

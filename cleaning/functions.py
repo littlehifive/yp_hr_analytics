@@ -57,8 +57,8 @@ def list_omang(df, omang):
 # Function that gets the facilitator and omang id from entry surveys
 def get_entry_id(df, omang, fac_id):
     df['dem_omang'] = df[omang].astype(str).apply(format_omang)
-    df['facilitator_id_b'] = df[fac_id]
-    df = df[['facilitator_id_b', 'dem_omang']]
+    df['facilitator_id_i'] = df[fac_id]
+    df = df[['facilitator_id_i', 'dem_omang']]
     return df
     
 
