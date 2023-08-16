@@ -1,0 +1,12 @@
+{
+    "https://api.shinyapps.io": {
+        "server_url": "https://api.shinyapps.io",
+        "filename": "/Users/michaelfive/Desktop/R Directory/Youth Impact/yp_hr_analytics/myapp",
+        "app_url": "https://49lv5s-zezhen-wu.shinyapps.io/connected_hr_analytics_dashboard/",
+        "app_id": 9615835,
+        "app_guid": null,
+        "title": "connected_hr_analytics_dashboard",
+        "app_mode": "python-shiny",
+        "app_store_version": 1
+    }
+}

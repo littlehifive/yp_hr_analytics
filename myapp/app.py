@@ -13,12 +13,6 @@ import pandas as pd
 import numpy as np
 import joblib
 
-from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
-from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
-from sklearn.model_selection import RandomizedSearchCV
-import xgboost as xgb
-
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
