@@ -1,0 +1,225 @@
+app_data_source,loc_region,return_to_yp,score_total,dem_gender,dem_age,edu_qual_highest,edu_qual_highest_year,emp_yes,emp_org_type,emp_duration,emp_currently,exp_w_child,exp_length_teacher,exp_length_school,exp_length_employee,exp_length_volunteer,interest_w_child,prac_scenario_volunt,prac_scenario_noshow,level_gains
+T1 2020,Kgatleng,Yes,20,Female,25,Certificate,2019,Yes,Education,67.19999999999999,Yes,Yes,36,66,17,28,4,1,Planning together with fellow facilitators,1.2340425
+T1 2020,North East,No,20,Female,25,Certificate,2019,Yes,Education,67.19999999999999,Yes,Yes,36,66,24,24,4,1,Planning together with fellow facilitators,1.468085
+T1 2020,South East,No,19.5,Female,23,Certificate,2018,Yes,Education,2,No,Yes,3,66,3,36,4,1,Planning together with fellow facilitators,0.4814815
+T1 2020,North West,No,19.5,Female,23,Certificate,2018,Yes,Education,2,No,Yes,3,66,3,36,4,1,Planning together with fellow facilitators,1.468085
+T1 2020,Kgatleng,No,19,Female,23,Diploma,2019,Yes,Education,57.6,No,Yes,3,5,17,36,4,1,Planning together with fellow facilitators,0.71428573
+T1 2020,North East,No,19,Female,23,Diploma,2019,Yes,Education,57.6,No,Yes,2,5,24,24,4,1,Planning together with fellow facilitators,0.84615386
+T1 2020,North West,No,19,Female,27,Bachelors Degree,2016,Yes,Utilities or construction,28.8,No,Yes,6,5,12,12,4,1,Planning together with fellow facilitators,0.7714286
+T1 2020,South East,No,19,Female,27,Bachelors Degree,2016,Yes,Utilities or construction,28.8,No,Yes,6,5,2,12,4,1,Planning together with fellow facilitators,0.6923077
+T1 2020,Kgatleng,Yes,19,Female,26,Certificate,2019,Yes,Education,40.8,Yes,Yes,24,42,36,5,4,1,Planning together with fellow facilitators,0.82857144
+T1 2020,Kgatleng,No,19,Female,26,Certificate,2019,Yes,Education,40.8,Yes,Yes,24,42,36,9,4,1,Planning together with fellow facilitators,1
+T1 2020,Kgatleng,No,18.5,Female,30,Bachelors Degree,2018,No,Education,8,No,Yes,24,6,24,12,4,1,Planning together with fellow facilitators,1
+T1 2020,Chobe,No,18.5,Female,30,Bachelors Degree,2018,No,Other,57.6,No,Yes,36,6,24,12,4,1,Planning together with fellow facilitators,0.9310345
+T1 2020,South East,Yes,18.5,Female,25,Bachelors Degree,2018,Yes,"Health care, social assistance, nonprofit",9,Yes,Yes,3,10,3,28,4,1,Planning together with fellow facilitators,0.16129032
+T1 2020,Kgatleng,Yes,18.5,Female,25,Bachelors Degree,2018,Yes,"Health care, social assistance, nonprofit",9,Yes,Yes,3,10,24,12,4,1,Planning together with fellow facilitators,0.59574467
+T1 2020,South East,No,18.5,Female,24,Bachelors Degree,2019,No,Other,9,No,Yes,3,3,3,5,4,1,Planning together with fellow facilitators,0.13793103
+T1 2020,Central,No,18.5,Female,24,Bachelors Degree,2019,No,Other,12,No,Yes,3,3,24,24,4,1,Planning together with fellow facilitators,0.71428573
+T1 2020,North West,No,18.5,Female,24,Bachelors Degree,2019,No,Other,6,No,Yes,3,3,12,2,4,1,Planning together with fellow facilitators,1.0645162
+T1 2020,Central,Yes,18,Female,22,Bachelors Degree,2019,No,Other,10,Yes,Yes,5,5,24,5,4,1,Planning together with fellow facilitators,0.84615386
+T1 2020,North East,No,18,Female,22,Bachelors Degree,2019,No,Other,3,No,Yes,5,5,11,5,4,1,Planning together with fellow facilitators,1.2340425
+T1 2020,Chobe,No,18,Male,24,Bachelors Degree,2019,No,Other,24,No,Yes,5,6,24,5,4,1,Planning together with fellow facilitators,1.0645162
+T1 2020,Kgatleng,No,18,Male,24,Bachelors Degree,2019,No,Utilities or construction,24,No,Yes,5,6,24,5,4,1,Planning together with fellow facilitators,0.70212764
+T1 2020,Kgatleng,No,18,Female,28,Bachelors Degree,2014,Yes,Education,11,No,Yes,3,24,12,24,4,1,Planning together with fellow facilitators,0.4848485
+T1 2020,Kgatleng,Yes,18,Female,28,Bachelors Degree,2014,Yes,Education,11,No,Yes,2,24,36,24,4,1,Planning together with fellow facilitators,0.57894737
+T1 2020,South East,Yes,18,Female,25,Bachelors Degree,2018,No,Other,10,No,Yes,2,12,3,12,4,1,Planning together with fellow facilitators,0.46875
+T1 2020,Kgatleng,No,18,Female,25,Bachelors Degree,2018,No,"Health care, social assistance, nonprofit",1,No,Yes,5,12,6,12,4,1,Planning together with fellow facilitators,0.46341464
+T1 2020,Chobe,No,18,Male,23,Bachelors Degree,2019,Yes,Other,8,Yes,Yes,10,6,24,4,4,1,Planning together with fellow facilitators,0.85106385
+T1 2020,North East,Yes,17.5,Female,30,Certificate,2010,Yes,"Finance, insurance or information services",38.400000000000006,No,Yes,2,66,24,28,4,1,Planning together with fellow facilitators,0.25
+T1 2020,North East,Yes,17.5,Female,30,Certificate,2010,Yes,"Finance, insurance or information services",38.400000000000006,No,Yes,2,56,12,36,4,1,Planning together with fellow facilitators,0.36
+T1 2020,South East,Yes,16.5,Female,22,Certificate,2017,No,"Health care, social assistance, nonprofit",1,Yes,Yes,24,41,3,3,4,1,Planning together with fellow facilitators,0.7222222
+T1 2020,North West,Yes,16.5,Female,22,Certificate,2017,No,Manufacturing,67.19999999999999,No,Yes,2,42,24,3,4,1,Planning together with fellow facilitators,1.2340425
+T1 2020,Kgatleng,No,16.5,Male,31,Diploma,2016,Yes,Government or public administration,1,No,Yes,2,3,11,5,4,1,Planning together with fellow facilitators,-0.071428575
+T1 2020,North West,Yes,16.5,Male,31,Diploma,2016,Yes,Government or public administration,1,No,Yes,2,3,24,3,4,1,Planning together with fellow facilitators,0.85106385
+T1 2020,North East,Yes,16.5,Female,25,Diploma,2016,Yes,Other,18,No,Yes,3,3,17,3,1,1,Planning together with fellow facilitators,1.2142857
+T1 2020,Kweneng,Yes,16.5,Female,25,Diploma,2016,Yes,Other,18,No,Yes,2,3,17,3,1,1,Planning together with fellow facilitators,0.98
+T1 2020,North East,Yes,16,Female,26,Bachelors Degree,2017,No,Other,13.2,No,Yes,3,3,24,6,4,1,Planning together with fellow facilitators,0.45454547
+T1 2020,Kgatleng,No,15.5,Male,20,Secondary School,2017,Yes,Government or public administration,5,No,Yes,3,8,6,6,4,1,Planning together with fellow facilitators,0.25
+T1 2020,North East,No,15.5,Male,20,Secondary School,2017,Yes,Government or public administration,5,No,Yes,3,8,6,6,4,1,Planning together with fellow facilitators,0.9433962
+T1 2020,Kgatleng,Yes,15,Female,29,Secondary School,2006,Yes,"Finance, insurance or information services",40.8,No,Yes,3,66,17,36,4,1,Planning together with fellow facilitators,0.6666667
+T1 2020,Kgatleng,No,15,Female,29,Secondary School,2006,Yes,"Finance, insurance or information services",40.8,No,Yes,3,66,3,36,4,1,Planning together with fellow facilitators,0.6923077
+T1 2020,Kgatleng,No,15,Male,23,Bachelors Degree,2019,No,Other,7,No,Yes,2,2,5,3,4,1,Plan individually,0.60714287
+T1 2020,South East,Yes,15,Male,23,Bachelors Degree,2019,No,Utilities or construction,16,No,Yes,2,2,3,3,4,1,Plan individually,0.36
+T1 2020,Chobe,No,14.5,Female,22,Bachelors Degree,2019,No,Other,9,No,Yes,2,3,5,2,4,1,Planning together with fellow facilitators,0.57894737
+T1 2020,North East,Yes,13.5,Male,27,Secondary School,2009,Yes,Military,3,No,Yes,3,24,24,12,4,1,Planning together with fellow facilitators,1.2
+T1 2020,Kgatleng,No,13.5,Male,27,Secondary School,2009,Yes,Military,3,No,Yes,2,24,11,24,4,1,Planning together with fellow facilitators,0.85106385
+T1 2020,South East,No,13.5,Female,25,Secondary School,2012,Yes,Education,9,Yes,Yes,6,8,2,3,4,1,Plan individually,0.5862069
+T1 2020,Kgatleng,No,13.5,Female,25,Secondary School,2012,Yes,Education,9,Yes,Yes,5,8,5,11,4,1,Plan individually,0.6818182
+T1 2020,North East,Yes,13,Female,26,Certificate,2017,Yes,Other,5,No,Yes,24,56,5,11,4,1,Plan individually,0.7058824
+T1 2020,Kgatleng,No,13,Female,35,Bachelors Degree,2010,Yes,Education,27.6,No,Yes,5,2,12,16,4,1,Planning together with fellow facilitators,0.16129032
+T1 2020,North East,No,12.5,Male,26,Certificate,2016,Yes,Education,8,No,Yes,5,7,3,3,1,1,Plan individually,0.45454547
+T1 2020,South East,No,12.5,Male,26,Certificate,2016,Yes,Education,8,No,Yes,3,7,5,2,1,1,Plan individually,0.60714287
+T1 2020,North East,Yes,12,Female,26,Bachelors Degree,2018,No,Education,12,No,Yes,10,3,3,3,1,1,Plan individually,0.70212764
+T1 2020,Southern,No,12,Female,26,Bachelors Degree,2018,No,"Finance, insurance or information services",32,No,Yes,6,6,5,2,1,1,Plan individually,0.59574467
+T1 2020,Chobe,No,11.5,Female,25,Certificate,2013,Yes,"Health care, social assistance, nonprofit",13.2,No,Yes,3,5,3,6,1,1,Plan individually,0.9310345
+T1 2020,Central,No,11.5,Female,25,Certificate,2013,Yes,"Health care, social assistance, nonprofit",13.2,No,Yes,3,24,5,3,1,1,Plan individually,1.2142857
+T1 2020,Kgatleng,No,10,Female,22,Certificate,2018,No,Other,12,No,No,5,3,3,5,4,0,Planning together with fellow facilitators,0.44680852
+T1 2020,Chobe,No,9,Female,27,Certificate,2019,Yes,Education,54,No,Yes,24,12,3,12,4,1,Plan individually,0.46341464
+T1 2020,Chobe,Yes,9,Female,27,Certificate,2016,No,Education,54,No,Yes,24,5,2,3,4,1,Plan individually,0.30769232
+T2 2022,South East,Yes,28,Male,28,Bachelor and above,2023,Yes,Education,32,No,Yes,2,24,24,28,3,1,Planning together with fellow facilitators,1.2
+T2 2022,South East,No,28,Female,25,Bachelor and above,2022,Yes,"Health care, social assistance, nonprofit",10,No,Yes,2,24,11,36,4,1,Planning together with fellow facilitators,0.98
+T2 2022,South East,No,27,Female,28,Bachelor and above,2019,Yes,Education,36,No,Yes,5,41,24,28,3,1,Planning together with fellow facilitators,0.98
+T2 2022,South East,Yes,27,Female,25,Bachelor and above,2022,Yes,"Finance, insurance or information services",38.400000000000006,No,Yes,3,66,24,36,4,1,Planning together with fellow facilitators,0.9361702
+T2 2022,South East,No,26,Female,25,Bachelor and above,2019,Yes,Education,24,No,Yes,3,24,12,36,3,1,Planning together with fellow facilitators,0.30769232
+T2 2022,South East,No,26,Female,28,Certificate,2019,Yes,Education,36,No,Yes,24,66,24,36,3,1,Planning together with fellow facilitators,0.5283019
+T2 2022,South East,No,25,Female,29,Bachelor and above,2023,Yes,Education,12,No,Yes,6,2,24,12,3,1,Planning together with fellow facilitators,1.1296296
+T2 2022,South East,Yes,25,Female,26,Bachelor and above,2020,No,Education,24,No,Yes,3,24,24,12,3,1,Planning together with fellow facilitators,0.9310345
+T2 2022,South East,No,25,Male,27,Diploma,2021,Yes,Education,67.19999999999999,No,Yes,3,24,24,24,4,1,Planning together with fellow facilitators,0.97727275
+T2 2022,South East,Yes,25,Male,34,Diploma,2018,Yes,Education,40.8,No,Yes,3,24,24,24,4,1,Planning together with fellow facilitators,0.9433962
+T2 2022,South East,No,25,Female,32,Bachelor and above,2017,Yes,Education,14,Yes,Yes,24,2,6,24,4,1,Planning together with fellow facilitators,0.97727275
+T2 2022,South East,Yes,25,Male,25,Senior Secondary,2022,Yes,Education,10,No,Yes,3,24,24,36,3,1,Planning together with fellow facilitators,1.0645162
+T2 2022,South East,Yes,25,Female,27,Bachelor and above,2021,Yes,"Health care, social assistance, nonprofit",9,No,Yes,3,24,24,28,3,1,Planning together with fellow facilitators,1.0851064
+T2 2022,South East,No,25,Female,25,Diploma,2019,Yes,Government or public administration,11,No,Yes,3,24,5,5,4,1,Planning together with fellow facilitators,0.4848485
+T2 2022,South East,No,25,Female,29,Diploma,2019,Yes,Education,67.19999999999999,No,Yes,10,24,24,24,4,1,Planning together with fellow facilitators,0.71428573
+T2 2022,South East,No,24,Female,29,Bachelor and above,2022,Yes,Education,24,No,Yes,24,10,12,24,4,1,Planning together with fellow facilitators,0.59574467
+T2 2022,South East,No,24,Female,30,Bachelor and above,2014,Yes,Education,16,No,Yes,3,24,11,36,4,1,Planning together with fellow facilitators,0.46875
+T2 2022,South East,No,24,Female,24,Bachelor and above,2022,Yes,Retail,6,No,Yes,3,3,36,36,4,1,Planning together with fellow facilitators,0.9361702
+T2 2022,South East,No,24,Female,24,Bachelor and above,2022,Yes,Education,24,No,Yes,3,24,17,36,4,1,Planning together with fellow facilitators,0.7222222
+T2 2022,South East,No,24,Female,26,Bachelor and above,2015,Yes,Education,5,No,Yes,3,42,5,36,4,1,Planning together with fellow facilitators,0.7058824
+T2 2022,South East,Yes,24,Male,28,Bachelor and above,2020,Yes,Education,32,No,Yes,2,24,17,36,4,1,Planning together with fellow facilitators,0.4814815
+T2 2022,South East,Yes,23,Female,26,Senior Secondary,2022,Yes,Retail,9,Yes,Yes,24,3,3,24,3,1,Plan individually,0.98
+T2 2022,South East,No,23,Female,28,Bachelor and above,2021,Yes,Education,28.8,Yes,Yes,24,3,12,16,4,1,Planning together with fellow facilitators,0.85106385
+T2 2022,South East,No,23,Female,24,Bachelor and above,2016,Yes,Education,9,No,Yes,3,24,5,36,3,1,Planning together with fellow facilitators,0.6666667
+T2 2022,South East,No,23,Female,29,Diploma,2017,Yes,Education,40.8,No,Yes,3,14,11,24,4,1,Planning together with fellow facilitators,0.46341464
+T2 2022,South East,Yes,23,Male,26,Bachelor and above,2021,Yes,"Finance, insurance or information services",12,No,Yes,3,12,24,24,3,1,Planning together with fellow facilitators,0.4848485
+T2 2022,South East,No,23,Female,33,Bachelor and above,2015,Yes,Education,2,No,Yes,6,14,2,36,4,1,Planning together with fellow facilitators,0.6923077
+T2 2022,South East,No,23,Female,25,Certificate,2018,Yes,Education,28.8,No,Yes,10,42,12,36,3,1,Planning together with fellow facilitators,0.36
+T2 2022,South East,No,23,Female,23,Bachelor and above,2022,No,Education,24,No,Yes,3,4,11,24,4,1,Planning together with fellow facilitators,0.9433962
+T2 2022,South East,No,21,Female,26,Senior Secondary,2018,Yes,Education,8,No,Yes,3,1,5,24,3,1,Planning together with fellow facilitators,0.6818182
+T2 2022,South East,No,21,Female,22,Diploma,2020,No,Education,67.19999999999999,No,Yes,3,6,5,16,4,1,Planning together with fellow facilitators,0.36
+T2 2022,South East,No,19,Female,24,Senior Secondary,2019,Yes,Government or public administration,5,No,Yes,2,6,5,1,4,1,Planning together with fellow facilitators,0.25
+T2 2022,South East,No,19,Female,24,Bachelor and above,2016,Yes,Education,4,No,Yes,3,19,3,24,2,1,Planning together with fellow facilitators,0.25
+T2 2022,Kgatleng,Yes,28,Female,29,Diploma,2020,Yes,Education,60,No,Yes,6,42,24,36,3,1,Planning together with fellow facilitators,1.2
+T2 2022,Kgatleng,No,26,Female,24,Bachelor and above,2023,Yes,Education,40.8,No,Yes,6,24,24,28,4,1,Planning together with fellow facilitators,0.98
+T2 2022,Kgatleng,Yes,25,Female,32,Diploma,2014,Yes,Education,67.19999999999999,No,Yes,3,66,17,36,4,1,Planning together with fellow facilitators,0.9361702
+T2 2022,Kgatleng,Yes,25,Female,27,Diploma,2023,Yes,Education,40.8,Yes,Yes,24,3,17,28,3,1,Planning together with fellow facilitators,1.0645162
+T2 2022,Kgatleng,No,25,Female,21,Certificate,2022,Yes,Education,57.6,Yes,Yes,24,42,36,36,4,1,Planning together with fellow facilitators,1
+T2 2022,Kgatleng,Yes,25,Female,26,Diploma,2018,Yes,Arts and entertainment,40.8,No,Yes,3,42,36,36,3,1,Planning together with fellow facilitators,1.2
+T2 2022,Kgatleng,No,24,Female,26,Bachelor and above,2018,No,Education,14,No,Yes,6,14,17,28,4,1,Planning together with fellow facilitators,0.30769232
+T2 2022,Kgatleng,No,24,Female,32,Certificate,2013,Yes,Education,40.8,No,Yes,24,66,36,36,4,1,Planning together with fellow facilitators,0.46875
+T2 2022,Kgatleng,No,24,Female,23,Senior Secondary,2023,Yes,"Health care, social assistance, nonprofit",28.8,Yes,Yes,24,24,17,28,4,1,Planning together with fellow facilitators,1.2
+T2 2022,Kgatleng,Yes,24,Female,23,Bachelor and above,2022,Yes,Retail,9,Yes,Yes,3,2,36,36,4,1,Planning together with fellow facilitators,1.2340425
+T2 2022,Kgatleng,No,24,Female,24,Bachelor and above,2015,Yes,Education,34,No,Yes,3,42,17,36,4,1,Planning together with fellow facilitators,0.82857144
+T2 2022,Kgatleng,Yes,23,Female,28,Diploma,2019,Yes,Education,60,No,Yes,36,42,24,24,4,1,Plan individually,1.2142857
+T2 2022,Kgatleng,No,23,Female,34,Bachelor and above,2014,Yes,Education,28.8,No,Yes,24,24,24,36,4,1,Planning together with fellow facilitators,0.9433962
+T2 2022,Kgatleng,No,23,Female,22,Diploma,2017,No,"Health care, social assistance, nonprofit",24,No,Yes,2,24,24,12,3,1,Planning together with fellow facilitators,0.6818182
+T2 2022,Kgatleng,No,23,Male,32,Senior Secondary,2018,Yes,Education,28.8,No,Yes,6,14,24,28,4,1,Planning together with fellow facilitators,0.97727275
+T2 2022,Kgatleng,No,22,Female,26,Bachelor and above,2018,No,"Health care, social assistance, nonprofit",12,No,Yes,3,5,11,24,4,1,Planning together with fellow facilitators,0.30769232
+T2 2022,Kgatleng,No,22,Female,28,Diploma,2018,Yes,Education,67.19999999999999,No,Yes,5,24,24,36,4,1,Planning together with fellow facilitators,0.6923077
+T2 2022,Kgatleng,No,22,Female,20,Senior Secondary,2019,Yes,Hotel or food services,10,No,Yes,2,24,12,36,4,1,Planning together with fellow facilitators,0.9230769
+T2 2022,Kgatleng,No,22,Female,23,Senior Secondary,2019,Yes,"Finance, insurance or information services",54,No,Yes,2,41,36,28,3,1,Planning together with fellow facilitators,0.9361702
+T2 2022,Kgatleng,No,22,Female,20,Senior Secondary,2022,Yes,Other,24,No,Yes,3,24,24,36,4,1,Planning together with fellow facilitators,1
+T2 2022,Kgatleng,No,21,Female,32,Diploma,2016,Yes,Education,60,No,Yes,10,14,24,24,4,1,Planning together with fellow facilitators,-0.071428575
+T2 2022,Kgatleng,Yes,21,Female,24,Senior Secondary,2021,No,"Health care, social assistance, nonprofit",24,No,Yes,3,8,24,12,3,1,Planning together with fellow facilitators,1.2340425
+T2 2022,Kgatleng,Yes,21,Female,24,Senior Secondary,2018,No,"Health care, social assistance, nonprofit",9,No,Yes,3,12,24,12,3,1,Planning together with fellow facilitators,1
+T2 2022,Kgatleng,No,21,Female,30,Diploma,2014,Yes,Education,38.400000000000006,No,Yes,24,24,2,24,4,1,Plan individually,0.71428573
+T2 2022,Kgatleng,No,21,Female,28,Bachelor and above,2012,Yes,Other,6,No,Yes,2,41,12,36,4,1,Planning together with fellow facilitators,0.46341464
+T2 2022,Kgatleng,No,21,Female,26,Bachelor and above,2012,No,Other,1,No,Yes,2,24,3,24,3,1,Planning together with fellow facilitators,0.60714287
+T2 2022,Kgatleng,No,18,Female,27,Bachelor and above,2016,Yes,Other,27.6,No,Yes,2,14,6,36,4,1,Planning together with fellow facilitators,0.44680852
+T2 2022,Kgatleng,Yes,18,Female,24,Bachelor and above,2023,Yes,Hotel or food services,2,No,Yes,10,2,3,12,4,1,Plan individually,0.85106385
+T2 2022,Kgatleng,No,16,Male,28,Bachelor and above,2023,Yes,Utilities or construction,67.19999999999999,No,Yes,36,3,24,24,4,0,Planning together with fellow facilitators,-0.071428575
+T2 2022,Kgatleng,No,7,Male,29,Senior Secondary,2012,Yes,Other,3,No,Yes,3,3,3,5,4,1,Plan individually,0.44680852
+T2 2022,Chobe,No,25,Female,21,Certificate,2022,Yes,Education,60,Yes,Yes,24,42,24,36,4,1,Planning together with fellow facilitators,0.98
+T2 2022,Chobe,No,25,Female,25,Senior Secondary,2023,Yes,Government or public administration,24,No,Yes,5,2,11,36,4,1,Planning together with fellow facilitators,0.9310345
+T2 2022,Chobe,Yes,24,Female,29,Certificate,2022,Yes,Education,67.19999999999999,No,Yes,24,66,24,28,3,1,Plan individually,1.2340425
+T2 2022,Chobe,No,24,Other,34,Certificate,2023,Yes,Education,40.8,No,Yes,24,8,24,36,4,1,Planning together with fellow facilitators,0.53846157
+T2 2022,Chobe,No,23,Female,28,Certificate,2021,No,Education,60,No,Yes,24,41,24,36,4,1,Planning together with fellow facilitators,0.53846157
+T2 2022,Chobe,No,23,Female,27,Bachelor and above,2019,Yes,Education,40.8,No,Yes,5,8,24,36,4,1,Planning together with fellow facilitators,0.84615386
+T2 2022,Chobe,No,22,Male,26,Senior Secondary,2023,Yes,Education,67.19999999999999,No,Yes,5,3,24,36,3,1,Planning together with fellow facilitators,1.468085
+T2 2022,Chobe,No,21,Female,23,Bachelor and above,2019,Yes,"Health care, social assistance, nonprofit",32,No,Yes,3,6,17,28,4,1,Planning together with fellow facilitators,0.9230769
+T2 2022,Chobe,No,21,Female,28,Bachelor and above,2019,Yes,"Health care, social assistance, nonprofit",40.8,No,Yes,24,24,5,36,4,1,Plan individually,1.2142857
+T2 2022,Chobe,No,20,Female,35,Junior Secondary,2022,Yes,Education,40.8,No,Yes,36,6,5,24,4,1,Plan individually,1.468085
+T2 2022,Chobe,No,8,Female,24,Bachelor and above,2012,Yes,Other,9,No,Yes,3,6,2,6,4,1,Plan individually,0.25
+T2 2022,North East,Yes,28,Female,29,Certificate,2022,Yes,Education,40.8,Yes,Yes,24,66,36,36,3,1,Planning together with fellow facilitators,1
+T2 2022,North East,Yes,27,Female,26,Bachelor and above,2022,Yes,Education,24,No,Yes,3,24,36,36,4,1,Planning together with fellow facilitators,0.98
+T2 2022,North East,Yes,27,Female,28,Certificate,2023,No,Hotel or food services,36,Yes,Yes,24,24,24,5,4,1,Planning together with fellow facilitators,1.2142857
+T2 2022,North East,No,27,Male,25,Certificate,2021,Yes,Government or public administration,24,No,Yes,6,42,24,36,4,1,Planning together with fellow facilitators,0.44680852
+T2 2022,North East,Yes,26,Female,27,Bachelor and above,2019,Yes,Education,14,No,Yes,3,42,24,36,4,1,Planning together with fellow facilitators,1.2
+T2 2022,North East,Yes,26,Female,27,Diploma,2023,Yes,Education,40.8,Yes,Yes,24,5,24,24,4,1,Planning together with fellow facilitators,1.2
+T2 2022,North East,Yes,26,Female,27,Diploma,2019,Yes,Education,40.8,Yes,Yes,24,5,24,24,4,1,Planning together with fellow facilitators,1.2
+T2 2022,North East,Yes,26,Female,24,Senior Secondary,2022,Yes,Military,8,Yes,Yes,24,24,36,36,4,1,Planning together with fellow facilitators,1.2142857
+T2 2022,North East,No,25,Female,24,Bachelor and above,2021,Yes,Education,38.400000000000006,No,Yes,3,24,24,36,4,1,Planning together with fellow facilitators,0.6666667
+T2 2022,North East,Yes,25,Female,23,Senior Secondary,2021,Yes,Education,36,Yes,Yes,24,41,17,28,4,1,Planning together with fellow facilitators,1.2142857
+T2 2022,North East,No,25,Male,28,Bachelor and above,2018,No,Education,28.8,No,Yes,3,24,24,36,4,1,Planning together with fellow facilitators,0.82978725
+T2 2022,North East,Yes,25,Female,30,Certificate,2018,Yes,Education,60,No,Yes,24,66,17,36,4,1,Planning together with fellow facilitators,1.468085
+T2 2022,North East,Yes,24,Female,29,Certificate,2022,No,Education,40.8,Yes,Yes,36,42,36,12,4,1,Planning together with fellow facilitators,0.9310345
+T2 2022,North East,No,24,Male,31,Certificate,2019,Yes,Education,40.8,No,Yes,36,66,36,36,4,1,Planning together with fellow facilitators,0.6818182
+T2 2022,North East,Yes,24,Female,26,Junior Secondary,2023,No,Education,40.8,No,Yes,24,24,24,24,4,1,Planning together with fellow facilitators,0.98
+T2 2022,North East,Yes,23,Female,28,Senior Secondary,2017,No,"Finance, insurance or information services",24,Yes,Yes,24,5,24,11,3,1,Planning together with fellow facilitators,1.0645162
+T2 2022,North East,No,23,Male,26,Senior Secondary,2018,Yes,Government or public administration,8,No,Yes,2,24,11,28,3,1,Planning together with fellow facilitators,0.875
+T2 2022,North East,No,23,Female,26,Bachelor and above,2022,Yes,Education,40.8,No,Yes,6,6,24,36,3,1,Planning together with fellow facilitators,1
+T2 2022,North East,No,23,Female,21,Certificate,2022,Yes,Education,40.8,No,Yes,24,42,24,36,4,1,Planning together with fellow facilitators,1.0851064
+T2 2022,North East,No,23,Female,23,Bachelor and above,2023,No,Education,32,No,Yes,24,8,24,12,4,1,Planning together with fellow facilitators,1.0645162
+T2 2022,North East,No,23,Female,23,Bachelor and above,2022,No,Other,13.2,No,Yes,5,3,36,5,4,1,Planning together with fellow facilitators,0.9230769
+T2 2022,North East,Yes,23,Female,24,Certificate,2019,Yes,Education,36,No,Yes,5,66,36,36,4,1,Planning together with fellow facilitators,0.59574467
+T2 2022,North East,Yes,23,Female,28,Bachelor and above,2022,Yes,Government or public administration,9,No,Yes,24,66,2,36,4,1,Plan individually,0.98
+T2 2022,North East,No,21,Male,28,Bachelor and above,2022,Yes,Education,32,No,Yes,24,24,24,28,4,1,Plan individually,0.9310345
+T2 2022,North East,Yes,20,Female,29,Diploma,2021,Yes,Education,40.8,Yes,Yes,24,19,3,5,4,1,Plan individually,1.2
+T2 2022,North East,Yes,19,Female,26,Senior Secondary,2022,Yes,Retail,34,No,Yes,24,12,24,24,4,1,Plan individually,0.98
+T2 2022,North East,No,18,Female,22,Bachelor and above,2019,No,Other,9,No,No,5,6,12,3,4,1,Planning together with fellow facilitators,0.45454547
+T2 2022,North East,No,15,Female,32,Bachelor and above,2011,Yes,Education,13.2,No,Yes,2,3,3,28,4,1,Planning together with fellow facilitators,0.25
+T2 2022,North East,Yes,8,Male,21,Senior Secondary,2012,Yes,Other,5,Yes,Yes,3,8,3,3,4,1,Plan individually,0.16129032
+T2 2022,North West,No,27,Male,27,Bachelor and above,2023,No,"Health care, social assistance, nonprofit",11,No,Yes,6,24,24,28,4,1,Planning together with fellow facilitators,1.2142857
+T2 2022,North West,No,25,Female,31,Diploma,2018,Yes,Education,67.19999999999999,No,Yes,24,24,36,9,4,1,Planning together with fellow facilitators,1.2142857
+T2 2022,North West,No,25,Female,33,Bachelor and above,2023,Yes,"Health care, social assistance, nonprofit",10,No,Yes,24,2,36,3,4,1,Planning together with fellow facilitators,1.2
+T2 2022,North West,Yes,24,Female,27,Bachelor and above,2018,No,Utilities or construction,24,No,Yes,5,14,24,4,4,1,Planning together with fellow facilitators,0.98
+T2 2022,North West,No,23,Male,24,Bachelor and above,2022,Yes,Education,24,No,Yes,2,24,24,36,4,1,Planning together with fellow facilitators,0.9361702
+T2 2022,North West,Yes,23,Female,30,Certificate,2022,Yes,Education,40.8,No,Yes,24,66,36,12,4,1,Planning together with fellow facilitators,0.98
+T2 2022,North West,No,21,Male,25,Bachelor and above,2022,Yes,"Health care, social assistance, nonprofit",10,No,Yes,2,2,36,12,4,1,Planning together with fellow facilitators,0.9310345
+T2 2022,North West,No,21,Male,26,Certificate,2023,No,Education,24,No,Yes,10,24,36,6,4,1,Planning together with fellow facilitators,0.9433962
+T2 2022,North West,No,21,Female,32,Certificate,2022,Yes,Education,38.400000000000006,No,Yes,24,24,24,9,4,1,Planning together with fellow facilitators,0.9310345
+T2 2022,North West,No,21,Female,31,Bachelor and above,2023,Yes,Education,57.6,No,Yes,24,5,3,16,4,1,Plan individually,1.468085
+T2 2022,North West,No,21,Male,24,Bachelor and above,2019,Yes,Education,2,No,Yes,3,5,24,12,3,1,Planning together with fellow facilitators,1
+T2 2022,North West,Yes,21,Female,27,Certificate,2021,Yes,Education,57.6,No,Yes,24,56,24,5,4,1,Plan individually,0.98
+T2 2022,North West,No,20,Female,24,Certificate,2019,Yes,Education,24,No,Yes,10,66,24,28,4,1,Planning together with fellow facilitators,0.13793103
+T2 2022,North West,No,19,Male,26,Bachelor and above,2022,Yes,Software or technology,60,No,Yes,3,12,2,36,4,1,Plan individually,1.2340425
+T2 2022,North West,No,17,Female,26,Bachelor and above,2019,Yes,Other,24,No,Yes,2,2,11,1,4,1,Planning together with fellow facilitators,1
+T2 2022,Kgatleng,No,21,Female,18,Senior Secondary,2022,No,"Health care, social assistance, nonprofit",24,No,Yes,2,24,11,36,4,1,Planning together with fellow facilitators,0.53846157
+T3 2023,Central,Yes,27,Female,30,Bachelors Degree,2022,Yes,"Health care, social assistance, nonprofit",24,No,Yes,24,6,24,24,1,1,Plan individually,0.98
+T3 2023,Central,No,26,Female,28,Bachelors Degree,2017,Yes,Education,24,No,Yes,24,24,2,36,1,1,Plan individually,1.2340425
+T3 2023,South East,Yes,24.75,Female,27,Bachelors Degree,2018,Yes,Education,24,No,Yes,5,24,5,12,1,1,Plan individually,1.468085
+T3 2023,Southern,No,24,Male,31,Bachelors Degree,2021,Yes,"Health care, social assistance, nonprofit",24,No,Yes,24,4,24,5,1,1,Plan individually,0.98
+T3 2023,Kgatleng,No,24,Female,31,Secondary School,2010,Yes,Manufacturing,60,No,Yes,2,42,36,36,4,1,Planning together with fellow facilitators,1.2340425
+T3 2023,Kgatleng,No,24,Female,31,Diploma,2014,Yes,Retail,24,No,Yes,24,24,12,36,1,1,Plan individually,1.2142857
+T3 2023,Kgatleng,No,23.5,Female,28,Bachelors Degree,2020,Yes,Government or public administration,12,No,Yes,6,12,24,12,4,1,Planning together with fellow facilitators,0.16129032
+T3 2023,Central,Yes,23.5,Female,24,Diploma,2023,Yes,"Health care, social assistance, nonprofit",32,No,Yes,10,19,17,15,1,1,Plan individually,0.98
+T3 2023,Kweneng,No,23.25,Female,28,Bachelors Degree,2021,Yes,Education,10,No,Yes,24,12,17,10,1,1,Planning together with fellow facilitators,1.2142857
+T3 2023,Kweneng,Yes,23,Female,25,Secondary School,2016,Yes,Education,16,Yes,Yes,3,5,36,16,1,1,Planning together with fellow facilitators,1.2142857
+T3 2023,Kweneng,Yes,23,Female,25,Secondary School,2016,Yes,Education,16,Yes,Yes,2,24,24,16,1,1,Planning together with fellow facilitators,1.2142857
+T3 2023,Central,Yes,23,Female,31,Diploma,2016,Yes,Education,36,Yes,Yes,36,6,17,5,1,1,Plan individually,1.2340425
+T3 2023,Kgatleng,No,23,Male,25,Certificate,2017,Yes,Education,36,No,Yes,5,66,24,36,3,1,Planning together with fellow facilitators,0.5283019
+T3 2023,South East,No,23,Female,24,Certificate,2018,Yes,Education,11,No,Yes,5,42,17,12,3,1,Planning together with fellow facilitators,0.7222222
+T3 2023,South East,Yes,22.75,Female,26,Diploma,2021,Yes,"Health care, social assistance, nonprofit",24,No,Yes,2,3,12,24,4,1,Planning together with fellow facilitators,0.71428573
+T3 2023,North East,Yes,22.5,Female,29,Diploma,2023,Yes,Education,24,No,Yes,24,3,24,6,3,1,Plan individually,0.98
+T3 2023,South East,No,22.5,Female,31,Bachelors Degree,2022,Yes,"Finance, insurance or information services",32,No,Yes,24,3,6,11,4,1,Planning together with fellow facilitators,0.46341464
+T3 2023,North West,Yes,22,Male,23,Bachelors Degree,2022,Yes,"Health care, social assistance, nonprofit",6,No,Yes,2,24,24,5,4,1,Planning together with fellow facilitators,1.2340425
+T3 2023,North West,Yes,22,Male,23,Bachelors Degree,2022,Yes,"Health care, social assistance, nonprofit",6,No,Yes,3,24,24,5,3,1,Planning together with fellow facilitators,0.98
+T3 2023,Kgatleng,Yes,21.75,Female,29,Diploma,2015,Yes,Education,24,No,Yes,5,24,11,28,3,1,Plan individually,0.85714287
+T3 2023,Kgatleng,Yes,21.75,Female,29,Diploma,2015,Yes,Education,24,No,Yes,3,5,11,28,1,1,Plan individually,1.0645162
+T3 2023,Kgatleng,Yes,21.75,Female,29,Diploma,2015,Yes,Education,24,No,Yes,3,7,11,28,1,1,Plan individually,1.0645162
+T3 2023,South East,Yes,20.25,Female,26,Bachelors Degree,2022,Yes,Education,9,No,Yes,6,2,3,9,3,1,Plan individually,1
+T3 2023,North East,Yes,20.25,Male,26,Bachelors Degree,2021,Yes,Education,6,No,Yes,6,3,17,6,1,1,Plan individually,1.2
+T3 2023,Kgatleng,No,20,Female,27,Secondary School,2015,Yes,Hotel or food services,6,No,Yes,2,10,17,10,4,1,Planning together with fellow facilitators,0.4848485
+T3 2023,Kgatleng,Yes,20,Female,24,Certificate,2020,Yes,Education,12,Yes,Yes,36,42,12,12,1,1,Plan individually,1.468085
+T3 2023,North East,Yes,20,Female,22,Bachelors Degree,2023,Yes,"Health care, social assistance, nonprofit",10,Yes,Yes,24,5,3,15,3,1,Plan individually,1.2340425
+T3 2023,North East,Yes,20,Female,22,Bachelors Degree,2023,Yes,"Health care, social assistance, nonprofit",10,Yes,Yes,24,2,5,15,4,1,Plan individually,1.2
+T3 2023,Kgatleng,Yes,19.75,Female,28,Bachelors Degree,2019,Yes,Software or technology,24,No,No,24,8,3,12,4,1,Plan individually,1.2
+T3 2023,Kgatleng,No,19.75,Female,22,Certificate,2023,No,Manufacturing,67.19999999999999,No,Yes,24,42,24,1,4,1,Planning together with fellow facilitators,0.98
+T3 2023,Kgatleng,Yes,19.5,Female,27,Diploma,2015,Yes,"Health care, social assistance, nonprofit",24,No,Yes,3,5,5,5,1,1,Plan individually,0.98
+T3 2023,Chobe,Yes,19.5,Male,25,Certificate,2019,Yes,Other,34,No,Yes,24,56,12,24,1,1,Plan individually,1.2
+T3 2023,Chobe,Yes,19.5,Male,25,Certificate,2019,Yes,Other,34,No,Yes,10,56,12,24,3,1,Plan individually,0.98
+T3 2023,Central,No,19,Male,29,Certificate,2012,No,Education,6,No,Yes,3,24,24,12,1,1,Planning together with fellow facilitators,0.46341464
+T3 2023,North East,Yes,19,Female,29,Secondary School,2011,Yes,Education,41,No,Yes,2,41,2,36,4,1,Plan individually,1.2340425
+T3 2023,Kgatleng,Yes,18.75,Female,23,Diploma,2021,Yes,"Health care, social assistance, nonprofit",12,No,Yes,3,7,3,12,3,1,Plan individually,0.9310345
+T3 2023,Kgatleng,Yes,18.75,Female,23,Diploma,2021,Yes,"Health care, social assistance, nonprofit",12,No,Yes,3,5,3,12,3,1,Plan individually,1.0851064
+T3 2023,South East,No,18.75,Female,24,Bachelors Degree,2021,Yes,"Health care, social assistance, nonprofit",5,No,Yes,6,3,5,12,3,1,Plan individually,0.30769232
+T3 2023,North East,Yes,18.5,Female,27,Secondary School,2012,Yes,Other,24,No,Yes,3,24,2,5,3,1,Plan individually,0.98
+T3 2023,Kgatleng,Yes,18.5,Female,26,Certificate,2022,Yes,Hotel or food services,7,No,Yes,24,14,2,4,3,1,Plan individually,0.7714286
+T3 2023,Kgatleng,No,17.75,Female,20,Certificate,2022,Yes,Retail,3,No,No,6,2,5,3,3,1,Plan individually,1.2142857
+T3 2023,North East,Yes,17,Female,29,Certificate,2012,No,Education,1,No,Yes,24,56,5,11,1,1,Plan individually,0.9310345
+T3 2023,Chobe,Yes,16.75,Female,22,Secondary School,2018,Yes,Education,14,No,Yes,3,14,5,36,3,1,Plan individually,0.85714287
+T3 2023,Central,No,16,Female,24,Secondary School,2016,Yes,Education,9,No,Yes,3,9,3,28,3,1,Plan individually,0.9230769
+T3 2023,North East,Yes,15.5,Male,22,Secondary School,2020,No,"Health care, social assistance, nonprofit",9,No,Yes,3,1,2,3,4,1,Plan individually,0.9230769
+T3 2023,Kgatleng,No,14.75,Female,0,Bachelors Degree,2022,No,Other,7,No,Yes,3,24,3,7,1,1,Plan individually,0.59574467
+T3 2023,North East,No,14.75,Female,18,Secondary School,2022,Yes,Arts and entertainment,4,No,Yes,3,3,3,12,3,1,Plan individually,0.98
+T3 2023,Central,No,10,Male,25,Secondary School,2016,Yes,Government or public administration,1,No,Yes,3,3,3,9,4,0,Plan individually,0.25
