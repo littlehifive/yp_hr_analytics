@@ -1,0 +1,72 @@
+---
+title: "Additional regression analysis"
+author: "Zezhen Wu"
+date: "2023-08-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+```
+
+**Note: The correlation between the predicted likelihood of being hired and the predicted performance score (average levels gain) among the current hired facilitators is 0.38. Please see "analysis/additional_cor_analysis.py" for detailed analysis.**
+
+**Below we show exploratory results using application data to predict hiring/performance with the aim to interpret individual parameters, instead of model performance as in a supervised learning framework.**
+
+# Load data
+```{r}
+# load data
+library(tidyverse)
+library(stargazer)
+
+dat_hiring <- read_csv(here::here("myapp/data/application_all_mi.csv"))
+dat_perform <- read_csv(here::here("myapp/data/application_hired_mi.csv"))
+
+```
+
+# Predicting hiring
+
+Important parameters positively predicting more likelihood of being hired:
+
+- Hired in T1 2022
+- Hired in Kgatleng
+- Returning applicant to Youth Impact
+- Composite hiring score
+- Younger applicant
+- Having a Bachelor and above diploma
+- Employment duration
+- Less time working as a teacher, more time as a volunteer
+- Interest with children
+- Planning together with fellow facilitators when mentor does not show
+
+```{r, results = "asis"}
+logistic_hiring <- glm(
+  yi_hired ~ .,
+  family = "binomial",
+  data = dat_hiring
+)
+
+stargazer(logistic_hiring, type = "html", title = "Predicting hiring decisions using application information")
+```
+
+# Predicting performance
+
+Important parameters positively predicting better performance:
+
+- Hired in T1 2022
+- Hired in Central
+- Composite hiring score
+- Having a Bachelor and above diploma
+- Having a Senior Secondary diploma
+- Being employed
+- **Less time working as a employee, less time as a volunteer (?)**
+- **Less interest with children (?)**
+
+```{r, results = "asis"}
+lm_perform <- lm(
+  level_gains ~ .,
+  data = dat_perform
+)
+
+stargazer(lm_perform, type = "html", title = "Predicting average levels gained using application information")
+```
