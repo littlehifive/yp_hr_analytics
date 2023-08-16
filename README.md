@@ -28,6 +28,8 @@
   - Interest in working with children 8-12
   - Plan individually if supervisor is not present
 
+**Note: These features come from the best fit models and may not bear theoretical importance. For understanding how individual parameters predict the outcomes, please see `analysis/additional_pred_analysis.Rmd`.**
+
 ## 3. Guidelines to use this website for future ConnectEd hiring
 
 - You can manually change any hiring information on the left, hit 'Generate hiring score', and see two predicted values.
@@ -121,6 +123,10 @@ We zoomed in on the hired facilitators for ConnectEd and attempted to predict th
   - `hr_analytics_performance.ipynb`: Python code for predicting performance in a Jupyter Notebook  
   
   - `hr_analytics.ipynb`: Python code for predicting hiring in a Jupyter Notebook
+
+  - `analysis/additional_pred_analysis.Rmd` and `analysis/additional_pred_analysis.html`: R code for regression analysis (to interpret individual parameters and their p-values)
+
+  - `analysis/additional_cor_analysis.py`: Python code for generating the predicted values for the two outcomes using a existing application dataset, and calculate their correlation (r = 0.38).
   
 **Note**:
   
